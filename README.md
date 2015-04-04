@@ -27,3 +27,5 @@ curl --data '{"tag_name": "v0.2.0","target_commitish": "master","name": "v0.2.0"
 ```bash
 curl --data '{"tag_name": "v0.3.0","target_commitish": "master","name": "v0.3.0","body": "Release of version 0.3.0\n\n[Docker 1.6.0-rc4 for Raspberry Pi](http://assets.hypriot.com/docker-hypriot_1.6.0-rc4-1_armhf.deb) [sha256sum](http://assets.hypriot.com/docker-hypriot_1.6.0-rc4-1_armhf.deb.sha256)","draft": false,"prerelease": false}' https://api.github.com/repos/dieterreuter/test-github-release/releases?access_token=$GITHUB_TOKEN
 ```
+
+DR
